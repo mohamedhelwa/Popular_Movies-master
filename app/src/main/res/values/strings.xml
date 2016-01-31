@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_view_details">Movie Details</string>
+
+    <string name="pref_sort_by_key" translatable="false">sort</string>
+    <string name="pref_label">Sort by</string>
+
+    <!-- pref lables-->
+    <string name="pref_label_popularity">Popularity</string>
+    <string name="pref_label_highest_rated">Highest rated</string>
+    <string name="pref_label_favorite">Favorite</string>
+    <string-array name="pref_options">
+        <item>@string/pref_label_popularity</item>
+        <item>@string/pref_label_highest_rated</item>
+        <item>@string/pref_label_favorite</item>
+    </string-array>
+
+
+    <!-- pref values-->
+    <string name="pref_popularity" translatable="false">popularity</string>
+    <string name="pref_highest_rated" translatable="false">highest rated</string>
+    <string name="pref_favorite" translatable="false">favorite</string>
+    <string-array name="pref_values">
+        <item>@string/pref_popularity</item>
+        <item>@string/pref_highest_rated</item>
+        <item>@string/pref_favorite</item>
+    </string-array>
+
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_sort_by_lable">Sort by</string>
+    <string name="pref_default_popularity">Popularity</string>
+    <string name="trails">Trails:</string>
+    <string name="test">Chappie</string>
+    <string name="content_authority">com.androidapps.project.popularmovies.app</string>
+
+
+    <string name="title_activity_view_item_details">ViewItemDetailsActivity</string>
+    <string name="mark_as_favorite">Mark As \n Favorite</string>
+    <string name="reviews">Reviews:</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="share_trailer">Share trailer</string>
+
+
+
+</resources>

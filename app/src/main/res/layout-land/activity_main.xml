@@ -1,0 +1,24 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:divider="?android:attr/dividerHorizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<fragment
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/grid_movie_poster"
+    android:name="com.androidapps.project.popularmovies.MainActivityFragment"
+    tools:layout="@layout/fragment_main" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/movie_details_container"/>
+
+
+</LinearLayout>
+

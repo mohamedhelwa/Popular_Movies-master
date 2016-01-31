@@ -1,0 +1,25 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/iv_trailer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:src="@drawable/ic_play_arrow_black_48dp"/>
+
+        <TextView
+            android:id="@+id/tv_trailer_number"
+            android:layout_width="0dp"
+            android:lines="2"
+            android:maxLines="3"
+            android:gravity="center|center_vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+

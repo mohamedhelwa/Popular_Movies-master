@@ -1,0 +1,17 @@
+<resources>
+
+
+
+    <style name="GridItemStyle">
+        <item name="android:padding">2dp</item>
+
+
+    </style>
+
+    <style name="GridStyle">
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>
